@@ -1,92 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>DSJ Self Portrait</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <style>
-  /* Make the image fully responsive */
-  .carousel-inner img {
-    width: 80%;
-    height: 80%;
-  }
-  </style>
-</head>
-<body>
-
-
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-    <title>DSJ Portfolio</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <style>
-    .fakeimg {
-      height: 200px;
-      background: #aaa;
-    }
-    </style>
-  </head>
-  <body>
-
-    <div class="jumbotron text-center" style="margin-bottom:0">
-    <h1>Danielle Sipin Jalotjot Portfolio</h1>
-		<p>click around to learn about me and my art, and thank you for stopping by!</p>
-
-<nav class="navbar navbar-expand-sm bg-info navbar-light justify-content-center">
-  <ul class="navbar-nav">
-    <li class="nav-item">
-      <a class="nav-link" href="index.html">Home</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="glitchart.html">Glitch Art</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="mememashup.html">Meme Mashup</a>
-      <li class="nav-item">
-        <a class="nav-link" href="mcsdemo.html">Minecraft Sculpture</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="3dprinting.html">3D Printing</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="netart.html">Net Art</a>
-      </li>
-	  <li class="nav-item">
-        <a class="nav-link" href="p5.jsportrait.html">Self Portrait</a>
-      </li>
-	  	  	  <li class="nav-item">
-        <a class="nav-link" href="diyps.html">DIY Photoshop</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="traditionalwork.html">Traditional Work</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="digitalwork.html">Digital Work</a>
-      </li>
-	  	        <li class="nav-item">
-        <a class="nav-link" href="ddgt.html">DDGT</a>
-      </li>
-    </li>
-  </ul>
-</nav>
-      <div class="container">
-        <br><h2>Self Portrait - p5.js</h2>
-        <p>Using p5.js, a creative coding software, I created this self portrait by assembling different 2D shapes and forms. There was a lot of trial and error in making this self portrait as I never used p5.js. However, after working in the program for a bit and familiarizing myself with the coordinate system, I really enjoyed the process and how the image came out!</p>
-<iframe src="p5.js/self_portrait_final/selfie/index.html" height="604" width="604" title="p5.js Self Portrait"></iframe>
-		  
-		        <div class="container">
-        <br><p>Here is the code for the image:</p>
-					<pre style="text-align:left">
 function setup() {
   createCanvas(600, 600);
   xCenter = 200;
@@ -125,8 +36,8 @@ function draw() {
   fill(255, 255, 255, 200);
   //      x,  y,  width, height
   ellipse(20, 200, 260, 80);
-
-  //cloud - left bottom
+  
+    //cloud - left bottom
   fill(255, 255, 255, 200);
   //      x,  y,  width, height
   ellipse(85, 290, 150, 30);
@@ -274,9 +185,3 @@ function draw() {
   fill(255, 213, 0);
   circle(150, 140, 130);
 }
-
-
-
-
-</body>
-</html>
